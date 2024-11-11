@@ -1,0 +1,105 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e0e3e8;
+    color: #1a1a1a;
+    padding: 30px;
+}
+
+/* Resume Container */
+.resume-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fdf6f6;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Styling */
+header h1 {
+    font-size: 2.5em;
+    color: #546b8a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form Section */
+form section {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #908e8e;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #425267;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #245aab;
+}
+
+/* Dynamic Resume Output */
+#resumeOutput {
+    margin-top: 30px;
+}
+
+#resumeOutput h1 {
+    font-size: 2em;
+    color: #171717;
+}
+
+#resumeOutput h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #333;
+}
+
+#resumeOutput ul {
+    list-style-type: none;
+}
+
+#resumeOutput ul li {
+    background-color: #e7efff;
+    color: #262728;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+/* Profile Picture */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
